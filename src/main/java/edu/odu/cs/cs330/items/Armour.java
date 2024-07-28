@@ -143,14 +143,15 @@ public class Armour extends Equippable {
     @Override
     public String toString()
     {
-        return String.format(FMT_STR, 
-                            this.getName(),
-                            this.getDurability(),
-                            this.getDefense(),
-                            this.getMaterial(),
-                            this.getModifier(),
-                            this.getModifierLevel(),
-                            this.getElement());
+        return String.format(
+            FMT_STR, 
+            this.getName(),
+            this.getDurability(),
+            this.getDefense(),
+            this.getMaterial(),
+            this.getModifier(),
+            this.getModifierLevel(),
+            this.getElement());
     }
 }
 
